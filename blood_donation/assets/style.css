@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header1 {
+    margin-top: 10px;
+    width: 100vw;
+    /* height: ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.white {
+    color: white;
+}
+
+.header2 {
+    background-color: #ad0000a8;
+    width: 94vw;
+    border-radius: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      
+      
+
+
+}
+
+.a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header1 a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.body1 {
+    width: 55vw;
+
+    margin-top: 10vh;
+
+    margin-left: 20vw;
+
+}
+
+.options button {
+    /* display: none; */
+    margin: 5px;
+
+}
+
+#form1 {
+    display: none;
+}
+
+.window {
+    /* background-color: rgb(178, 177, 177); */
+    background-color: #ad0000a8;
+    border-radius: 18px;
+    min-height: 10vh;
+    margin: 2px;
+}
+
+.deletebtn {
+    display: none;
+}
+
+.doner_home,
+.user_home,
+.admin_home {
+    display: none;
+}
+
+.doner_form {
+    display: none;
+}
+
+.table3 {
+    display: none;
+}
+
+#signInBtn {
+    margin-left: 22vw;
+    margin-top: 2vh;
+}
+
+#loginBtn {
+    margin-top: 2vh;
+}
+
+form {
+
+    width: 24vw;
+    margin-left: 17vw;
+    margin-top: 2vh;
+    padding: 2vh;
+}
+
+.req_select {
+    display: flex;
+    margin-bottom: 2vh
+}
+
+#address1 {
+    margin-bottom: 2vh;
+}
+
+.table2 {
+    min-width: 60vw;
+    margin-top: 7px;
+    margin-left: 60px;
+    margin-bottom: 15px;
+}
+
+#table3 {
+    width: 53vw;
+    margin: 0 auto;
+}
+
+/* .table3head
+{
+    width: 30vw;
+} */
+#bloodgroup,
+#genderSelect,
+#medcon,
+#address {
+    margin-bottom: 10px;
+}
+
+#table4 {
+
+    width: 54vw;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+#logoutbtn {
+    margin-left: 36px;
+}
+.blood_info
+{
+    color: #ad0000a8;
+}

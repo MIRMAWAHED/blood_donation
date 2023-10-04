@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .a
+        {
+            width: 30vw;
+            height: 20vh;
+            background-color: rgb(112, 112, 112);
+            margin: 20vw;
+        }
+        .a button
+        {
+            width: 150px;
+            height: 110px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="a" id="a">
+        <button id="btn">asas</button>
+    </div>
+    <script>
+        document.getElementById('btn').addEventListener('click',(e)=>{
+           document.getElementById('a').remove();
+        })
+       </script>
+</body>
+</html>
